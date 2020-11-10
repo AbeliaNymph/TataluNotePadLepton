@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>AbeliaNymph</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Core.File.fs" />
+    <Compile Include="FileManager.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GUI\GUI.csproj" />
+  </ItemGroup>
+
+</Project>
